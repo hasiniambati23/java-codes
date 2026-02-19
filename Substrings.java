@@ -19,6 +19,8 @@ public class Substrings {
 
         String username = email.substring(0, email.indexOf("@"));
         System.out.println("Your username is: " + username);
+        String domain = email.substring(email.indexOf("@"));
+        System.out.println("Your domain is:"+domain);
 
         sc.close();
     }
